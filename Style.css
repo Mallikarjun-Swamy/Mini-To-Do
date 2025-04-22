@@ -8,3 +8,21 @@ body {
   background-color: rgba(0, 0, 0, 0.896);
   color: rgb(74, 231, 245);
 }
+
+.container {
+  border: none;
+  border-radius: 15px;
+  background-color: rgba(173, 194, 194, 0.268);
+  height: 50vh;
+  width: 35vw;
+  box-shadow: 5px, 5px, 10px, 10px rgb(223, 110, 110);
+}
+
+.header {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding: 10px;
+  border-bottom: 1px solid white;
+  margin-bottom: 20px;
+}
