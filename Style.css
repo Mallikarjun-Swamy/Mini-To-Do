@@ -13,9 +13,10 @@ body {
   border: none;
   border-radius: 15px;
   background-color: rgba(173, 194, 194, 0.268);
-  height: 50vh;
-  width: 35vw;
-  box-shadow: 5px, 5px, 10px, 10px rgb(223, 110, 110);
+  height: auto;
+  width: 50vw;
+  box-shadow: 0 0 10px rgba(237, 158, 93, 0.5);
+  padding-bottom: 20px;
 }
 
 .header {
@@ -25,4 +26,60 @@ body {
   padding: 10px;
   border-bottom: 1px solid white;
   margin-bottom: 20px;
+}
+
+.AddTask {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.AddTask input {
+  padding: 8px;
+  width: 230px;
+  border-radius: 5px;
+}
+
+.AddTask button {
+  padding: 6px;
+  width: 25%;
+  border-radius: 5px;
+  background-color: rgb(74, 231, 245);
+  color: black;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+li button {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(84, 240, 206);
+  color: rgb(237, 33, 33);
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(84, 240, 206);
+  color: black;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(231, 40, 40, 0.5);
+}
+
+ol {
+  padding: 10px;
+}
+
+li {
+  font-size: large;
+  display: flex;
+  padding: 6px;
+  justify-content: space-between;
+  border: 1px solid rgb(191, 236, 44);
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  align-items: center;
 }
