@@ -14,7 +14,7 @@ body {
   border-radius: 15px;
   background-color: rgba(173, 194, 194, 0.268);
   height: auto;
-  width: 50vw;
+  width: 25vw;
   box-shadow: 0 0 10px rgba(237, 158, 93, 0.5);
   padding-bottom: 20px;
 }
@@ -35,7 +35,7 @@ body {
 
 .AddTask input {
   padding: 8px;
-  width: 230px;
+  width: 225px;
   border-radius: 5px;
 }
 

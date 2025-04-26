@@ -13,14 +13,16 @@ function AddTask() {
   taskDate.textContent = newtaskDate;
   newTask.appendChild(taskDate);
   document.getElementById("taskInput").value = "";
-  deleteTask(newTask);
   markAsDone(newTask);
+  deleteTask(newTask);
 }
 
 function deleteTask(newTask) {
+  const deleteSpan = document.createElement("span");
   const deleteButton = document.createElement("button");
+  deleteSpan.appendChild(deleteButton);
   deleteButton.textContent = "Delete";
-  newTask.appendChild(deleteButton);
+  newTask.appendChild(deleteSpan);
   deleteButton.onclick = function () {
     const taskList = document.getElementById("taskList");
     taskList.removeChild(newTask);
@@ -28,9 +30,11 @@ function deleteTask(newTask) {
 }
 
 function markAsDone(newTask) {
+  const doneSpan = document.createElement("span");
   const doneButton = document.createElement("button");
+  doneSpan.appendChild(doneButton);
   doneButton.textContent = "Done";
-  newTask.appendChild(doneButton);
+  newTask.appendChild(doneSpan);
   doneButton.onclick = function () {
     newTask.style.textDecoration = "line-through";
     newTask.style.backgroundColor = "lightgreen";
