@@ -40,8 +40,8 @@ function markAsDone(newTask) {
   newTask.appendChild(doneSpan);
   doneButton.onclick = function () {
     newTask.style.textDecoration = "line-through";
-    newTask.style.backgroundColor = "lightgreen";
-    newTask.style.color = "black";
+    newTask.style.backgroundColor = "green";
+    newTask.style.color = "yellow";
     newTask.removeChild(doneSpan);
   };
 }

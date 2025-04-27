@@ -53,8 +53,8 @@ body {
 li button {
   padding: 5px;
   border-radius: 5px;
-  background-color: rgb(84, 240, 206);
-  color: rgb(237, 33, 33);
+  background-color: rgb(74, 231, 245);
+  color: black;
   font-weight: bold;
   border: none;
   cursor: pointer;
@@ -86,4 +86,5 @@ li {
 
 #Todo-text {
   width: 170px;
+  color: rgb(242, 255, 0);
 }
