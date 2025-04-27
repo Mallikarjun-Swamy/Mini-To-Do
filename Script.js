@@ -2,12 +2,15 @@ function AddTask() {
   const newTask = document.createElement("li");
   const taskList = document.getElementById("taskList");
   taskList.appendChild(newTask);
-  inputValue = document.getElementById("taskInput").value;
+  const inputValue = document.getElementById("taskInput").value;
+  const inputSpan = document.createElement("span");
+  inputSpan.id = "Todo-text";
   if (inputValue === "") {
     alert("Please enter a task name.");
     return taskList.removeChild(newTask); // Remove the empty task item if input is empty
   }
-  newTask.textContent = inputValue;
+  inputSpan.innerText = inputValue;
+  newTask.appendChild(inputSpan);
   const newtaskDate = new Date().toLocaleString();
   const taskDate = document.createElement("span");
   taskDate.textContent = newtaskDate;
@@ -39,6 +42,6 @@ function markAsDone(newTask) {
     newTask.style.textDecoration = "line-through";
     newTask.style.backgroundColor = "lightgreen";
     newTask.style.color = "black";
-    newTask.removeChild(doneButton);
+    newTask.removeChild(doneSpan);
   };
 }

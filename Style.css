@@ -14,7 +14,7 @@ body {
   border-radius: 15px;
   background-color: rgba(173, 194, 194, 0.268);
   height: auto;
-  width: 25vw;
+  width: 35vw;
   box-shadow: 0 0 10px rgba(237, 158, 93, 0.5);
   padding-bottom: 20px;
 }
@@ -34,14 +34,14 @@ body {
 }
 
 .AddTask input {
-  padding: 8px;
-  width: 225px;
+  padding: 10px;
+  width: 300px;
   border-radius: 5px;
 }
 
 .AddTask button {
   padding: 6px;
-  width: 25%;
+  width: 20%;
   border-radius: 5px;
   background-color: rgb(74, 231, 245);
   color: black;
@@ -61,7 +61,7 @@ li button {
 }
 
 button:hover {
-  background-color: rgb(84, 240, 206);
+  background-color: rgb(26, 171, 101);
   color: black;
   cursor: pointer;
   box-shadow: 2px 2px 5px rgba(231, 40, 40, 0.5);
@@ -75,11 +75,15 @@ li {
   font-size: large;
   display: flex;
   padding: 6px;
-  justify-content: space-between;
+  justify-content: space-around;
   border: 1px solid rgb(191, 236, 44);
   border-radius: 5px;
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 5px;
   align-items: center;
+}
+
+#Todo-text {
+  width: 170px;
 }
