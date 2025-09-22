@@ -6,10 +6,11 @@ Here what it does
 **Hello**
 ***Hello***
 
--list
--ist2
--Hello
--list3
+- list
+- ist2
+- Hello
+- got it
+- list3
 
 
 1. List
