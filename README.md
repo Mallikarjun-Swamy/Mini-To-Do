@@ -12,13 +12,19 @@ Here what it does
   - got it
 - list3
 
-
+--- 
 1. List
 2. Two
 3. Three
-
+---
 [Go to Google](https://google.com)
 
 `function hello() {
 console.log("Hello World");
 }`
+
+| Name | Age |
+|------|-----|
+| ALice | 25 |
+| Bob | 30 |
+
