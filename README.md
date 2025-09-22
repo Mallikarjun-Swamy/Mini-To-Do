@@ -19,9 +19,11 @@ Here what it does
 ---
 [Go to Google](https://google.com)
 
- ```javascript function hello() {
+ ```javascript
+function hello() {
 console.log("Hello World");
-} ```
+}
+```
 
 | Name | Age |
 |------|-----|
