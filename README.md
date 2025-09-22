@@ -6,10 +6,10 @@ Here what it does
 **Hello**
 ***Hello***
 
-- list
-- ist2
-- Hello
-- got it
+* list
+* ist2
+* Hello
+  - got it
 - list3
 
 
