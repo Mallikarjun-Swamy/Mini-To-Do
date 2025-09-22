@@ -25,6 +25,20 @@ console.log("Hello World");
 }
 ```
 
+```java
+
+class Name{
+public static void main(String[] args){
+System.out.println("Say Hello") 
+}
+
+
+}
+
+
+
+```
+
 | Name | Age |
 |------|-----|
 | ALice | 25 |
