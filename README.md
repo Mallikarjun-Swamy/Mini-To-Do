@@ -5,7 +5,7 @@ Here what it does
 *Hell*
 **Hello**
 ***Hello***
-
+***
 * list
 * ist2
 * Hello
@@ -19,9 +19,9 @@ Here what it does
 ---
 [Go to Google](https://google.com)
 
-`function hello() {
+` function hello() {
 console.log("Hello World");
-}`
+} `
 
 | Name | Age |
 |------|-----|
