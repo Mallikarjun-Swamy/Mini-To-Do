@@ -6,10 +6,10 @@ Here what it does
 **Hello**
 ***Hello***
 
-*list
-*list2
-*Hello
-*list3
+-list
+-ist2
+-Hello
+-list3
 
 
 1. List
