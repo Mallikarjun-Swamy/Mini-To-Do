@@ -19,9 +19,9 @@ Here what it does
 ---
 [Go to Google](https://google.com)
 
-<pre> ``` function hello() {
+ ```javascript function hello() {
 console.log("Hello World");
-} ```<pre>
+} ```
 
 | Name | Age |
 |------|-----|
